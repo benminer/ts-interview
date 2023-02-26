@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "allowJs": true,
+    "noEmit": false,
+    "declaration": false,
+    "target": "es2022",
+    "moduleResolution": "node",
+    "module": "es2022",
+    "inlineSourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "noFallthroughCasesInSwitch": true,
+    "traceResolution": false,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
+    "lib": ["ES2021"],
+    "types": ["node", "jest"],
+    "allowSyntheticDefaultImports": true,
+    "incremental": false,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "compileOnSave": false,
+  "exclude": ["node_modules", "coverage", "dist", "*.js"]
+}
